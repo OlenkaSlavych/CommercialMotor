@@ -1,0 +1,841 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <link
+      rel="stylesheet"
+      href="assets/fontawesome-free-6.4.2-web/css/all.css"
+    />
+    <title>Commercial Motor Homepage</title>
+  </head>
+
+  <body>
+    <header>
+      <img class="logo" src="img/6_Logo.png" alt="main-logo" />
+
+      <div>
+        <ul class="icons">
+          <li>
+            <a href="#"><i class="fa-brands fa-twitter"></i></a>
+          </li>
+          <li>
+            <a href="#"><i class="fa-brands fa-facebook"></i></a>
+          </li>
+          <li>
+            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+          </li>
+          <li>
+            <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+          </li>
+          <li>
+            <a href="#"><i class="fa-brands fa-youtube"></i></a>
+          </li>
+        </ul>
+
+        <ul class="forms">
+          <li><a href="#">Sign In</a></li>
+          <li class="vl"><a href="#">Register</a></li>
+        </ul>
+      </div>
+
+      <section id="subheader">
+        <ul>
+          <li>
+            <a href="#">Used trucks<span class="ddarrow">▼</span></a>
+            <ul>
+              <li>
+                <a href="#">sell a truck</a>
+              </li>
+
+              <li>
+                <a href="#">tractor units</a>
+              </li>
+
+              <li>
+                <a href="#">rigids</a>
+              </li>
+
+              <li>
+                <a href="#">vans</a>
+              </li>
+
+              <li>
+                <a href="#">trailers</a>
+              </li>
+
+              <li>
+                <a href="#">tippers</a>
+              </li>
+
+              <li>
+                <a href="#">tankers</a>
+              </li>
+
+              <li>
+                <a href="#">specialist vehicles</a>
+              </li>
+
+              <li>
+                <a href="#">vehicle quick links</a>
+              </li>
+            </ul>
+          </li>
+
+          <li>
+            <a href="#">News<span class="ddarrow">▼</span></a>
+            <ul>
+              <li>
+                <a href="#">Product</a>
+              </li>
+
+              <li>
+                <a href="#">Industry</a>
+              </li>
+
+              <li>
+                <a href="#">Compliance</a>
+              </li>
+
+              <li>
+                <a href="#">magazine</a>
+              </li>
+            </ul>
+          </li>
+
+          <li>
+            <a href="#">Knowledge hub<span class="ddarrow">▼</span></a>
+            <ul>
+              <li>
+                <a href="#">Buying advice</a>
+              </li>
+
+              <li>
+                <a href="#">White papers</a>
+              </li>
+
+              <li>
+                <a href="#">Podcasts</a>
+              </li>
+
+              <li>
+                <a href="#">Archive</a>
+              </li>
+
+              <li>
+                <a href="#">Webinars</a>
+              </li>
+            </ul>
+          </li>
+
+          <li>
+            <a href="#">Supplier A to Z</a>
+          </li>
+
+          <li>
+            <a href="#">Subscribe</a>
+          </li>
+        </ul>
+      </section>
+    </header>
+
+    <main>
+      <div
+        id="stockholder"
+        style="background-image: url(img/truckbg1.jpg)"
+      ></div>
+      <div id="window">
+        <div id="stockWidget">
+          <h2>Used Vehicle Finder</h2>
+
+          <ul class="icons-category">
+            <li class="icon-category">
+              <a href="#"
+                ><img src="img/vt_Rigids.png" alt="rigids" /><span
+                  >Rigids</span
+                ></a
+              >
+            </li>
+            <li class="icon-category">
+              <a href="#"
+                ><img
+                  src="img/vt_Specialist-vehicles.png"
+                  alt="specialist-vehicles"
+                /><span>Specialist</span></a
+              >
+            </li>
+            <li class="icon-category">
+              <a href="#"
+                ><img src="img/vt_Tankers.png" alt="tankers" /><span
+                  >Tankers</span
+                ></a
+              >
+            </li>
+            <li class="icon-category">
+              <a href="#"
+                ><img src="img/vt_Tractor-units.png" alt="tractor-units" /><span
+                  >Tractor units</span
+                ></a
+              >
+            </li>
+            <li class="icon-category">
+              <a href="#"
+                ><img src="img/vt_Trailers.png" alt="trailers" /><span
+                  >Trailers</span
+                ></a
+              >
+            </li>
+            <li class="icon-category">
+              <a href="#"
+                ><img src="img/vt_Vans.png" alt="vans" /><span>Vans</span></a
+              >
+            </li>
+          </ul>
+
+          <div id="grid-container">
+            <div id="input-category" class="grid-item-1">
+              <select id="ddcategory" class="category" name="cat">
+                <option value="0" disabled selected hidden>Category...</option>
+                <option value="Rigids">Rigids (3415)</option>
+                <option value="Specialist">Specialist (1066)</option>
+                <option value="Tankers">Tankers (114)</option>
+                <option value="Tippers">Tippers (7)</option>
+                <option value="Tractor units">Tractor units (2553)</option>
+                <option value="Trailers">Trailers (1104)</option>
+                <option value="Vans">Vans (860)</option>
+              </select>
+            </div>
+
+            <div id="divMake" class="grid-item-2">
+              <input
+                list="makes"
+                id="make"
+                autocomplete="off"
+                placeholder="Make..."
+              />
+              <datalist id="makes">
+                <option value="DAF">(1928)</option>
+                <option value="SCANIA">(965)</option>
+                <option value="VOLVO">(690)</option>
+                <option value="IVECO">(479)</option>
+                <option value="MAN">(451)</option>
+                <option value="MERCEDES-BENZ VANS">(398)</option>
+                <option value="FORD">(112)</option>
+                <option value="SDC">(209)</option>
+                <option value="RENAULT TRUCKS">(218)</option>
+                <option value="VOLKSWAGEN">(87)</option>
+                <option value="MONTRACON">(121)</option>
+                <option value="AMMANN">(70)</option>
+                <option value="ANDOVER">(8)</option>
+                <option value="ATLAS">(5)</option>
+                <option value="ATLAS COPCO">(45)</option>
+                <option value="AUSA">(6)</option>
+                <option value="BARFORD">(4)</option>
+                <option value="BEDFORD">(2)</option>
+                <option value="BENALU">(2)</option>
+                <option value="BENFORD TEREX">(2)</option>
+                <option value="BMI">(8)</option>
+                <option value="BOBCAT">(31)</option>
+                <option value="BOMAG">(54)</option>
+                <option value="BOUGHTON">(1)</option>
+                <option value="CARTWRIGHT">(41)</option>
+                <option value="CASE">(6)</option>
+                <option value="CATERPILLAR">(53)</option>
+                <option value="CHEREAU">(8)</option>
+                <option value="CHIEFTAIN">(1)</option>
+                <option value="CITROEN">(20)</option>
+                <option value="COLSON">(26)</option>
+                <option value="CONCEPT (LIGHT TRAILERS)">(1)</option>
+                <option value="CRANE FRUEHAUF">(15)</option>
+                <option value="CROSSLAND TANKERS">(1)</option>
+                <option value="DENNIS EAGLE">(42)</option>
+                <option value="DENNISON">(54)</option>
+                <option value="DFSK">(1)</option>
+                <option value="DON-BUR">(36)</option>
+                <option value="DOOSAN">(19)</option>
+                <option value="D-TEC">(2)</option>
+                <option value="ERF">(6)</option>
+                <option value="FAYMONVILLE">(4)</option>
+                <option value="FELDBINDER">(16)</option>
+                <option value="FIAT">(32)</option>
+                <option value="FODEN">(7)</option>
+                <option value="FRUEHAUF">(16)</option>
+                <option value="FSM">(1)</option>
+                <option value="FUSO">(18)</option>
+                <option value="GENIE">(62)</option>
+                <option value="GRAY &amp; ADAMS">(28)</option>
+                <option value="GREAT WALL">(10)</option>
+                <option value="HAMM">(34)</option>
+                <option value="HIAB">(1)</option>
+                <option value="HINO">(30)</option>
+                <option value="HITACHI">(21)</option>
+                <option value="HYSTER">(11)</option>
+                <option value="HYUNDAI">(1)</option>
+                <option value="ISUZU">(2)</option>
+                <option value="ISUZU TRUCK">(72)</option>
+                <option value="JCB">(102)</option>
+                <option value="JHL">(2)</option>
+                <option value="JOHN DEERE">(5)</option>
+                <option value="JOHNSTON">(13)</option>
+                <option value="KASSBOHRER">(61)</option>
+                <option value="KEL-BERG">(15)</option>
+                <option value="KING">(10)</option>
+                <option value="KNAPEN">(28)</option>
+                <option value="KOGEL">(1)</option>
+                <option value="KOMATSU">(45)</option>
+                <option value="KRAKER">(11)</option>
+                <option value="KRONE">(17)</option>
+                <option value="KUBOTA">(56)</option>
+                <option value="LAG">(1)</option>
+                <option value="LAKELAND">(2)</option>
+                <option value="LAMBERET">(2)</option>
+                <option value="LAND ROVER">(6)</option>
+                <option value="LAWRENCE DAVID">(51)</option>
+                <option value="LDV">(2)</option>
+                <option value="LEGRAS">(4)</option>
+                <option value="LEYLAND">(3)</option>
+                <option value="LIEBHERR">(8)</option>
+                <option value="LINDE">(6)</option>
+                <option value="LUCK">(1)</option>
+                <option value="M &amp; G">(9)</option>
+                <option value="MAC TRAILER">(4)</option>
+                <option value="MANITOU">(41)</option>
+                <option value="MASSEY">(2)</option>
+                <option value="MAXUS">(3)</option>
+                <option value="MCCAULEY">(12)</option>
+                <option value="MELTON">(3)</option>
+                <option value="MERCEDES-BENZ TRUCKS">(1211)</option>
+                <option value="MERLO">(14)</option>
+                <option value="METALLIX">(1)</option>
+                <option value="MITSUBISHI">(13)</option>
+                <option value="MITSUBISHI FUSO">(45)</option>
+                <option value="MULDOON">(8)</option>
+                <option value="NEUSON">(2)</option>
+                <option value="NEW HOLLAND">(5)</option>
+                <option value="NISSAN">(17)</option>
+                <option value="NOOTEBOOM">(7)</option>
+                <option value="NOVA">(5)</option>
+                <option value="OLDBURY">(1)</option>
+                <option value="OTHER SPECIALIST VEHICLES">(70)</option>
+                <option value="OTHER TRAILERS">(38)</option>
+                <option value="PALFINGER">(1)</option>
+                <option value="PANELTEX">(2)</option>
+                <option value="PEUGEOT">(32)</option>
+                <option value="PRAMAC">(6)</option>
+                <option value="RENAULT">(48)</option>
+                <option value="ROLFO">(3)</option>
+                <option value="ROTHDEAN">(24)</option>
+                <option value="SCARAB">(12)</option>
+                <option value="SCHMIDT">(11)</option>
+                <option value="SCHMITZ CARGOBULL">(58)</option>
+                <option value="SEDDON ATKINSON">(1)</option>
+                <option value="STAS">(14)</option>
+                <option value="STILL">(4)</option>
+                <option value="TAKEUCHI">(4)</option>
+                <option value="TERBERG">(1)</option>
+                <option value="THWAITES">(9)</option>
+                <option value="TIGER TRAILERS">(7)</option>
+                <option value="TITAN">(22)</option>
+                <option value="TOYOTA">(6)</option>
+                <option value="TRANSPORTER ENGINEERING">(2)</option>
+                <option value="VALLELY">(1)</option>
+                <option value="VAN HOOL">(1)</option>
+                <option value="VAUXHALL">(25)</option>
+                <option value="VOLVO PLANT">(5)</option>
+                <option value="WACKER NEUSON">(72)</option>
+                <option value="WEIDEMANN">(1)</option>
+                <option value="WEIGHT LIFTER">(6)</option>
+                <option value="WHALE TANKERS">(1)</option>
+                <option value="WHEELBASE">(4)</option>
+                <option value="WILCOX">(12)</option>
+                <option value="WILSON">(1)</option>
+                <option value="YALE">(4)</option>
+                <option value="YANMAR">(101)</option>
+              </datalist>
+            </div>
+
+            <div class="grid-item-3">
+              <input type="text" placeholder="Model..." id="model" />
+            </div>
+
+            <div class="grid-item-4">
+              <button type="submit">Sell my Truck</button>
+            </div>
+
+            <div class="grid-item-5"></div>
+
+            <div class="grid-item-6">
+              <button type="submit">Search 9114 vehicles</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="img-truck-3">
+        <a href="#" target="_blank">
+          <img src="img/truckbg1.jpg" alt="truck" />
+        </a>
+      </div>
+
+      <div class="second-headers">
+        <h1>Latest stock</h1>
+        <h4>Find your vehicle today</h4>
+      </div>
+
+      <div class="latest-stock">
+        <div class="stock-first">
+          <a href="#">
+            <img
+              src="img/vt_Rigids.png"
+              alt="curtain-side-trailer"
+              class="main-photo"
+            />
+            <p class="title">
+              2013 cartwright 4880 mm double desk curtain side trailer
+            </p>
+          </a>
+
+          <p class="price">&pound;6,750</p>
+
+          <ul class="information">
+            <li class="green-circle"><b>Body Type:</b> Curtainsider</li>
+            <li class="green-circle"><b>Registration:</b> C338560-01</li>
+            <li class="green-circle"><b>Category:</b> Trailers</li>
+            <li class="green-circle"><b>Make:</b> Cartwright</li>
+          </ul>
+
+          <a href="#"
+            ><img src="img/6_Logo.png" alt="A&M" class="mini-logo"
+          /></a>
+          <button type="submit" class="details">view details</button>
+        </div>
+
+        <div class="stock-second">
+          <a href="#">
+            <img src="img/vt_Rigids.png" alt="S-450" class="main-photo" />
+            <p class="title">
+              2019 (19) S 450 Highline mid lift, 2 pedal opticruise with
+              retarder
+            </p>
+          </a>
+
+          <p class="price">POA</p>
+
+          <ul class="information">
+            <li class="green-circle"><b>Body Type:</b> Tractor unit</li>
+            <li class="green-circle"><b>Registration:</b> CX19UTA</li>
+            <li class="green-circle"><b>Mileage:</b> 593,000 kms</li>
+            <li class="green-circle"><b>Category:</b> Tractor units</li>
+          </ul>
+
+          <a href="#"
+            ><img src="img/6_Logo.png" alt="A&M" class="mini-logo"
+          /></a>
+          <button type="submit" class="details">view details</button>
+        </div>
+
+        <div class="stock-third">
+          <a href="#">
+            <img src="img/vt_Rigids.png" alt="tank" class="main-photo" />
+            <p class="title">45,000 LITRES CAPACITY BUNDED DIESEL TANK</p>
+          </a>
+
+          <p class="price">POA</p>
+
+          <ul class="information">
+            <li class="green-circle"><b>Body Type:</b> Tanker</li>
+            <li class="green-circle"><b>Category:</b> Specialist</li>
+            <li class="green-circle"><b>Make:</b> Other Specialist Vehicles</li>
+            <li class="green-circle"><b>Registration: YJ15 HFE</b></li>
+          </ul>
+
+          <a href="#"
+            ><img src="img/6_Logo.png" alt="A&M" class="mini-logo"
+          /></a>
+          <button type="submit" class="details">view details</button>
+        </div>
+      </div>
+
+      <div class="button-view">
+        <button type="submit">View more stock</button>
+      </div>
+
+      <div class="img-truck-4">
+        <a href="#" target="_blank">
+          <img src="img/truckbg1.jpg" alt="truck" />
+        </a>
+      </div>
+
+      <div class="third-headers">
+        <h1>MANUFACTURERS</h1>
+        <h4>Truck manufacturers and their stock</h4>
+      </div>
+
+      <div class="grid-container-models">
+        <div class="models">
+          <a href="#">
+            <img src="img/ma_DAF.jpg" alt="logo-daf" class="models-logo" />
+            <p class="models-name">DAF</p>
+          </a>
+        </div>
+
+        <div class="models">
+          <a href="#">
+            <img src="img/ma_Isuzu.png" alt="logo-isuzu" class="models-logo" />
+            <p class="models-name">ISUZU</p>
+          </a>
+        </div>
+
+        <div class="models">
+          <a href="#">
+            <img src="img/ma_Iveco.jpg" alt="logo-iveco" class="models-logo" />
+            <p class="models-name">IVECO</p>
+          </a>
+        </div>
+
+        <div class="models">
+          <a href="#">
+            <img src="img/ma_MAN.png" alt="logo-man" class="models-logo" />
+            <p class="models-name">MAN</p>
+          </a>
+        </div>
+
+        <div class="models">
+          <a href="#">
+            <img
+              src="img/ma_Mercedes-Benz-Trucks.png"
+              alt="logo-mercedes-benz"
+              class="models-logo"
+            />
+            <p class="models-name">Mercedes-Benz Trucks</p>
+          </a>
+        </div>
+
+        <div class="models">
+          <a href="#">
+            <img
+              src="img/ma_Renault-Trucks.png"
+              alt="logo-renault trucks"
+              class="models-logo"
+            />
+            <p class="models-name">Renault Trucks</p>
+          </a>
+        </div>
+
+        <div class="models">
+          <a href="#">
+            <img
+              src="img/ma_Scania.png"
+              alt="logo-scania"
+              class="models-logo"
+            />
+            <p class="models-name">Scania</p>
+          </a>
+        </div>
+
+        <div class="models">
+          <a href="#">
+            <img src="img/ma_Volvo.jpg" alt="logo-volvo" class="models-logo" />
+            <p class="models-name">Volvo</p>
+          </a>
+        </div>
+      </div>
+
+      <div class="forth-headers">
+        <a href="#"><h1>LATEST NEWS</h1></a>
+        <h4>Industry, product and legal news to help keep you informed</h4>
+      </div>
+
+      <div class="grid-news">
+        <div class="news">
+          <a href="#">
+            <img src="img/thumb_IMG_013832898290.jpeg" alt="truck" />
+            <h4>News-Commercial Motors</h4>
+            <h2>
+              Welch's Transport chooses Renault Trucks E-Tech for emission-free
+              delivery service
+            </h2>
+            <p>September 9, 2023</p>
+          </a>
+        </div>
+
+        <div class="news">
+          <a href="#">
+            <img src="img/thumb_IMG_013832898290.jpeg" alt="truck" />
+            <h4>News-Commercial Motors</h4>
+            <h2>New Volvo FH for O’Carroll Haulage & Crane Hire</h2>
+            <p>September 8, 2023</p>
+          </a>
+        </div>
+
+        <div class="news">
+          <a href="#">
+            <img src="img/thumb_IMG_013832898290.jpeg" alt="truck" />
+            <h4>News-Commercial Motors</h4>
+            <h2>Müller trials zero-emission refrigeration trailers</h2>
+            <p>September 8, 2023</p>
+          </a>
+        </div>
+
+        <div class="news">
+          <a href="#">
+            <img src="img/thumb_IMG_013832898290.jpeg" alt="truck" />
+            <h4>News-Commercial Motors</h4>
+            <h2>Two new PPG-bodied Scania tippers for A McPhee Haulage</h2>
+            <p>September 8, 2023</p>
+          </a>
+        </div>
+
+        <div class="news">
+          <a href="#">
+            <img src="img/thumb_IMG_013832898290.jpeg" alt="truck" />
+            <h4>News-Commercial Motors</h4>
+            <h2>North West Trucks opens new DAF dealership in Warrington</h2>
+            <p>September 8, 2023</p>
+          </a>
+        </div>
+
+        <div class="news">
+          <a href="#">
+            <img src="img/thumb_IMG_013832898290.jpeg" alt="truck" />
+            <h4>News-Commercial Motors</h4>
+            <h2>Travis Perkins invests in 400 new DAFs with Hiab cranes</h2>
+            <p>September 8, 2023</p>
+          </a>
+        </div>
+
+        <div class="news">
+          <a href="#">
+            <img src="img/thumb_IMG_013832898290.jpeg" alt="truck" />
+            <h4>News-Commercial Motors</h4>
+            <h2>Brit European unveils new Axtec weighbridge in Middlewich</h2>
+            <p>September 7, 2023</p>
+          </a>
+        </div>
+
+        <div class="news">
+          <a href="#">
+            <img src="img/thumb_IMG_013832898290.jpeg" alt="truck" />
+            <h4>Magazine-Commercial Motors</h4>
+            <h2>OUT NOW: Commercial Motor 07 September 2023</h2>
+            <p>September 7, 2023</p>
+          </a>
+        </div>
+
+        <div class="news">
+          <a href="#">
+            <img src="img/thumb_IMG_013832898290.jpeg" alt="truck" />
+            <h4>News-Commercial Motors</h4>
+            <h2>Scania launches solar powered truck trials</h2>
+            <p>September 6, 2023</p>
+          </a>
+        </div>
+
+        <div class="news">
+          <a href="#">
+            <img src="img/thumb_IMG_013832898290.jpeg" alt="truck" />
+            <h4>News-Commercial Motors</h4>
+            <h2>
+              <div class="title">Volvo’s FH celebrates its 30th birthday</div>
+            </h2>
+            <p>September 5, 2023</p>
+          </a>
+        </div>
+
+        <div class="news">
+          <a href="#">
+            <img src="img/thumb_IMG_013832898290.jpeg" alt="truck" />
+            <h4>News-Commercial Motors</h4>
+            <h2>Knowles announces rebranding with new name</h2>
+            <p>September 5, 2023</p>
+          </a>
+        </div>
+
+        <div class="news">
+          <a href="#">
+            <img src="img/thumb_IMG_013832898290.jpeg" alt="truck" />
+            <h4>News-Commercial Motors</h4>
+            <h2>Scania appoints Mark Bridgland as new UK sales director</h2>
+            <p>September 5, 2023</p>
+          </a>
+        </div>
+      </div>
+
+      <div class="button-articles">
+        <button type="submit">View more articles</button>
+      </div>
+
+      <div class="find-more">
+        <div class="details-find-more">
+        <div class="advert">
+          <i class="fa-solid fa-sterling-sign"></i>
+          <h3>I'm Selling</h3>
+          <p>
+            Reach a bigger audience by selling your used vehicles with
+            Commercial Motor
+          </p>
+          <button type="submit">Find Out More</button>
+        </div>
+
+        <div class="advert">
+          <i class="fa-solid fa-user"></i>
+          <h3>Our Dealers</h3>
+          <p>
+            Find your next commercial vehicle from hundreds of used truck
+            dealers
+          </p>
+          <button type="submit">Find Out More</button>
+        </div>
+
+        <div class="advert">
+          <i class="fa-solid fa-gear"></i>
+          <h3>Knowledge Hub</h3>
+          <p>
+            Truck reviews, in-depth buying guides, industry reports, podcasts
+            and the CM Archive
+          </p>
+          <button type="submit">Find Out More</button>
+        </div>
+
+        <div class="advert-subscribe">
+          <i class="fa-solid fa-magnifying-glass"></i>
+          <h3>Subscribe</h3>
+          <p>Subscribe to our magazine for the latest news from the industry</p>
+          <button type="submit">Find Out More</button>
+        </div>
+      </div>
+      </div>
+
+      <div class="fifth-header">
+        <h2>VEHICLE QUICKLINKS</h2>
+      </div>
+
+      <div class="block">
+        <div class="group">
+          <h5>Vehicle Type</h5>
+          <div class="items">
+            <a href="#" class="table">Tractor units</a>
+            <a href="#" class="table">Rigids</a>
+            <a href="#" class="table">Trailers</a>
+            <a href="#" class="table">Vans</a>
+            <a href="#" class="table">Specialist</a>
+            <a href="#" class="table">Tankers</a>
+            <a href="#" class="table">Tippers</a>
+          </div>
+        </div>
+
+        <div class="group">
+          <h5>Make</h5>
+          <div class="items">
+            <a href="#" class="table">DAF</a>
+            <a href="#" class="table">Isuzu Truck</a>
+            <a href="#" class="table">Iveco</a>
+            <a href="#" class="table">MAN</a>
+            <a href="#" class="table">Mercedes-Benz Trucks</a>
+            <a href="#" class="table">Renault Trucks</a>
+            <a href="#" class="table">Scania</a>
+            <a href="#" class="table">Volvo</a>
+          </div>
+        </div>
+
+        <div class="group">
+          <h5>Model</h5>
+          <div class="items">
+            <a href="#" class="table">Actros</a>
+            <a href="#" class="table">Canter</a>
+            <a href="#" class="table">CF</a>
+            <a href="#" class="table">Eurocargo</a>
+            <a href="#" class="table">FH</a>
+            <a href="#" class="table">LF</a>
+            <a href="#" class="table">R-Series</a>
+          </div>
+        </div>
+
+        <div class="group">
+          <h5>Bodytype</h5>
+          <div class="items">
+            <a href="#" class="table">Beavertail</a>
+            <a href="#" class="table">Crane</a>
+            <a href="#" class="table">Flatbed</a>
+            <a href="#" class="table">Panel van</a>
+            <a href="#" class="table">Road sweeper</a>
+            <a href="#" class="table">Road sweeper</a>
+            <a href="#" class="table">Tanker</a>
+            <a href="#" class="table">Tipper</a>
+          </div>
+        </div>
+
+        <div class="group">
+          <h5>Axle</h5>
+          <div class="items">
+            <a href="#" class="table">4x2</a>
+            <a href="#" class="table">4x4</a>
+            <a href="#" class="table">6x2</a>
+            <a href="#" class="table">6x4</a>
+            <a href="#" class="table">6x6</a>
+            <a href="#" class="table">8x2</a>
+            <a href="#" class="table">8x4</a>
+          </div>
+        </div>
+
+        <div class="group">
+          <h5>Cabtype</h5>
+          <div class="items">
+            <a href="#" class="table">Day</a>
+            <a href="#" class="table">Sleeper</a>
+            <a href="#" class="table">Crewcab</a>
+            <a href="#" class="table">Low entry</a>
+          </div>
+        </div>
+
+        <div class="group">
+          <h5>Emissions</h5>
+          <div class="items">
+            <a href="#" class="table">Euro 3</a>
+            <a href="#" class="table">Euro 4</a>
+            <a href="#" class="table">Euro 5</a>
+            <a href="#" class="table">Euro 6</a>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <footer>
+      <div class="footer">
+        <div class="footer-logo">
+          <a href="#" class="href-logo">
+            <img src="img/6_FooterLogo.png" alt="logo-commercial-motors" />
+          </a>
+        </div>
+
+        <div id="footer-nav">
+          <ul class="nav-list">
+            <li><a href="#">Contact us</a></li>
+            <li><a href="#">About us</a></li>
+            <li><a href="#">Advertise with us</a></li>
+            <li><a href="#">Terms and Conditions</a></li>
+            <li><a href="#">Privacy Policy</a></li>
+            <li><a href="#">Cookie Use Policy</a></li>
+            <li><a href="#">Subscribe</a></li>
+            <li><a href="#">Why buy through us?</a></li>
+            <li><a href="#">Sell a truck or trailer</a></li>
+            <li><a href="#">Archive</a></li>
+            <li><a href="#">Podcasts</a></li>
+            <li><a href="#">RT Expo</a></li>
+            <li><a href="#">Tractor Units</a></li>
+            <li><a href="#">Rigids</a></li>
+            <li><a href="#">Vans</a></li>
+            <li><a href="#">Trailers</a></li>
+            <li><a href="#">Tippers</a></li>
+            <li><a href="#">Tankers</a></li>
+            <li><a href="#">Specialist Vehicles</a></li>
+          </ul>
+        </div>
+
+        <div id="copyright-text">2023 DVV Media International Ltd</div>
+
+      </div>
+    </footer>
+  </body>
+</html>
